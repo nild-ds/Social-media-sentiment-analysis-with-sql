@@ -31,7 +31,7 @@ CREATE TABLE social (
 ```
 ## Business Problems and Solutions
 
-###1.List the countries and number of posts where the sentiment score is negative.
+### 1.List the countries and number of posts where the sentiment score is negative.
 ```sql
 SELECT 
     country,
