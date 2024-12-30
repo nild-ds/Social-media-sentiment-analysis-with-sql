@@ -9,7 +9,8 @@ This project involves a comprehensive analysis of sentiment on various social me
 * List and analyze platforms based on years, months, countries, and engagement.
 * Explore and categorize comments based on platforms and sentiment type.
 
-
+'''sql
+DROP TABLE IF EXISTS social;
 CREATE TABLE social (
     index SERIAL PRIMARY KEY,
     text_posted_by_user TEXT,
