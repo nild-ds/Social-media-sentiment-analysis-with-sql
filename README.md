@@ -8,3 +8,21 @@ This project involves a comprehensive analysis of sentiment on various social me
 * Identify the most common hashtags and sentiment type.
 * List and analyze platforms based on years, months, countries, and engagement.
 * Explore and categorize comments based on platforms and sentiment type.
+
+
+CREATE TABLE social (
+    index SERIAL PRIMARY KEY,
+    text_posted_by_user TEXT,
+    sentiment VARCHAR(50),
+    timestamp TEXT,
+    users VARCHAR(100),
+    platform VARCHAR(50),
+    hashtags TEXT,
+    retweets INT,
+    likes INT,
+    country VARCHAR(100),
+    year INT,
+    month INT,
+    day INT,
+    hour INT
+);
