@@ -299,3 +299,11 @@ ORDER BY
     country, platform, total_engagement DESC;
 ```
 
+## Findings and Conclusion
+* Content Distribution: The dataset contains a various range of social media platform data.
+* Common sentiment: Insights into the most common sentiments provide an understanding of the users mood change.
+* Geographical Insights: The top countries and their average sentiment by the time period to inderstand the flow.
+* Categorization: Categorizing comments based on specific keywords helps in understanding the nature of sentiment for every platform.
+  
+## This analysis provides a comprehensive view of Social media sentiment and can help in making marketing strategys and decision-making for product based companies.
+
