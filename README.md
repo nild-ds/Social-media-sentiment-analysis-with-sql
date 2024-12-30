@@ -9,6 +9,7 @@ This project involves a comprehensive analysis of sentiment on various social me
 * List and analyze platforms based on years, months, countries, and engagement.
 * Explore and categorize comments based on platforms and sentiment type.
 
+# Schema
 ```sql
 DROP TABLE IF EXISTS social;
 CREATE TABLE social (
@@ -27,3 +28,6 @@ CREATE TABLE social (
     day INT,
     hour INT
 );
+
+
+#
